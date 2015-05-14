@@ -1,0 +1,23 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	boxsizing:border-box;
+}
+*{
+	outline: 1px solid red !important;
+}
+.app {
+	display: flex;
+	flex-wrap: wrap;
+	display: -webkit-flex;
+	color: #7C8B88;
+	font-family: arial;
+}
+.description {
+	color: black;
+	max-width: 705px
+}
+.screenshot {
+	max-width: 460px
+}
